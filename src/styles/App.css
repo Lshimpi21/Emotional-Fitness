@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #e7e1edff;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-footer {
+  background-color: #e7e1edff;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  color: #3a2c5b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7c6ca7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-primary {
+  background-color: #3a2c5b;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #7c6ca7;
+}
+
+.button-secondary {
+  background-color: #7c6ca7;
+  color: white;
+}
+
+.button-secondary:hover {
+  background-color: #3a2c5b;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
